@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "inserire numero:" numero
+read -p "inserire numero:" numero               # stampo richiesta e salvo input
 
 if [ "$numero" -gt 24 ] && [ "$numero" -lt 36 ] # controllo chei l numero inserito sia contemporaneamente > 24 e < 36
   then                                          # caso true
