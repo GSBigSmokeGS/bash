@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Percorso del file dei comandi scaricato
-remote_file_path="https://github.com/GSBigSmokeGS/bash/blob/main/comandi.sh"
+remote_file_path="comandi.txt"
 
 # Loop infinito
 while true
@@ -12,6 +12,6 @@ do
     # Esegue il comando
     eval "$last_command"
     
-    # Attende 30 secondi prima di eseguire di nuovo
+    # Attendere 30 secondi prima di eseguire di nuovo
     sleep 30
 done
