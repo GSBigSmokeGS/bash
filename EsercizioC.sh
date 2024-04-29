@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Percorso del file dei comandi scaricato
-remote_file_path="URL_DEL_FILE_DA_SCARICARE"
+remote_file_path="https://github.com/GSBigSmokeGS/bash/blob/main/comandi.sh"
 
 # Loop infinito
 while true
